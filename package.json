@@ -1,0 +1,19 @@
+{
+  "name": "osm-demo",
+  "version": "1.0.0",
+  "description": "Démonstration de certaines fonctionnalités de la plate-forme",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/plamoureux/osm-demo"
+  },
+  "jspm": {
+    "main": "index",
+    "format": "register",
+    "directories": {
+      "lib": "dist/system"
+    },
+    "dependencies": {
+      "lodash": "npm:lodash@^3.9.3"
+    }
+  }
+}
